@@ -1,1 +1,64 @@
-style.css
+body {
+	margin:0;
+	padding:0;
+}
+
+header {
+
+	background-color: #444444;
+	padding:0 100px;
+	height:52px; /* 52px */
+	padding-top: 1px;
+	position:relative;
+	
+}
+
+
+header nav {
+	width:390px;
+	margin-top: 17px;
+	/* background-color: red; */
+}
+
+header nav ul {
+	padding :0;
+	margin:0;
+
+}
+
+header nav ul li {
+	
+	list-style: none;
+	display:inline-block;
+	margin-right: 10px;
+
+}
+
+
+header nav ul li a {
+	text-decoration:none;
+	text-transform: lowercase;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color:#888888;
+}
+
+header nav ul li a:hover {
+	color:white;
+}
+
+
+header input {
+	
+	width:140px;
+	height: 20px;
+	padding:0;
+	border:1px solid;
+	display: inline-block;
+	position:absolute;
+	top:15px;
+	right:50px;
+	border:none;
+	border-radius: 5px;
+	
+}
